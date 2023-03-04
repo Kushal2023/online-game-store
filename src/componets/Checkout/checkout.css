@@ -1,0 +1,18 @@
+.container {
+  padding: 50px 0;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h3,
+.btn {
+  padding: 20px 0;
+}
+
+.btn {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}

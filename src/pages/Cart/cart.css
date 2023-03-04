@@ -1,0 +1,43 @@
+.cart {
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+}
+
+.added-products {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border: 1px solid #ccc;
+}
+
+.cart-image {
+  height: 100px;
+  width: 150px;
+}
+
+.game-info,
+.game-price-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 50px;
+}
+
+.cart-summary {
+  flex: 2;
+  border: 1px solid #ccc;
+  height: 150px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
